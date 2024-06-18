@@ -1,5 +1,5 @@
 server {
-        listen %ip%:%proxy_port%;
+        listen %ip%:80;
         server_name %domain_idn% %alias_idn%;
         error_log /var/log/%web_system%/domains/%domain%.error.log error;
 
